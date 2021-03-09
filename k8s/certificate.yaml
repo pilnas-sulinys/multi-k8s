@@ -9,12 +9,12 @@ spec:
     kind: ClusterIssuer
     commonName: jemjjk.site
   dnsNames:
-    - jemjkk.site
-    - www.jemjkk.site
+    - jemjjk.site
+    - www.jemjjk.site
   acme:
     config:
       - http01:
           ingressClass: nginx
         domains:
-          - jemjkk.site
-          - www.jemjkk.site
+          - jemjjk.site
+          - www.jemjjk.site
